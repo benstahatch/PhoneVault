@@ -60,3 +60,10 @@ storage/
 
 # Editor / OS files
 .DS_Store
+
+
+
+# Personal Neovim / Dadbod tooling
+scripts/dadbod_env.py
+scripts/dev-env.sh
+scripts/dev
