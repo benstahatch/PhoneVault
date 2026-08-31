@@ -212,9 +212,9 @@ Possible events:
 
 Select Device
      ➡ 
-Upload File
-     ➡
 Create Backup Run
+     ➡
+Upload File
      ➡ 
 Calculate SHA-256
      ➡ 
@@ -394,4 +394,5 @@ The repository contains an `.env.example` file that shows the variables needed t
 - [ ] research CalDAV support for calendar backup & sync
 - [ ] research CardDAV support for contact backup & sync
  
+
 
