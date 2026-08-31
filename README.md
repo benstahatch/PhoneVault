@@ -339,7 +339,7 @@ The repository contains an `.env.example` file that shows the variables needed t
 - [ ] test the complete backup -> restore pipeline
 
 
-## Testin[118;1:3ug && Reliability
+## Testing & Reliability
 
 - [ ] add *Minitest* tests
 - [ ] test database models and relationships
@@ -364,7 +364,7 @@ The repository contains an `.env.example` file that shows the variables needed t
 - [ ] Evaluate Raspberry Pi deployment
 
 
-## documentation & due diligence
+## Documentation & Due Diligence
 
 - [ ] Keep the README synchronized with the actual state of the project
 - [ ] document installation
