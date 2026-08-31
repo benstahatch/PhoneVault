@@ -2,7 +2,7 @@
 
 PhoneVault is a self-hosted backup project built around Ruby on Rails, MySQL, Docker, and Linux.
 
-The long term idea is to provide a simple way for you to run your own private backup server on your own hardware. The first version is intentionally small: get the database, application, storage, and restore pipeline working well before adding more unique features.
+The long term idea is to provide a simple way for anyone to run their own private backup server on their own hardware. The first version is intentionally small: get the database, application, storage, and restore pipeline working well before adding more unique features.
 ---------------------------------------------------------------------------
 
 ## Current Goal for September
