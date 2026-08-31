@@ -114,12 +114,12 @@ Devices that are registered to a user.
 
 Possible fields:
 
-`id`             *(PK)*
-`user_id`        *(FK) ➡ users.id*
-`name`
-`device_type`
-`created_at`
-`updated_at`
+- `id`             *(PK)*
+- `user_id`        *(FK) ➡ users.id*
+- `name`
+- `device_type`
+- `created_at`
+- `updated_at`
 
 # Backup Runs
 
@@ -233,7 +233,7 @@ Store File
 Save Metadata
 
      ⬇ 
-     
+
 Mark Backup Complete
 
 
@@ -299,7 +299,7 @@ The repository contains an `.env.example` file that shows the variables needed t
 - [ ] Verify secrets and local config are ignored by Git
 - [ ] Plan the automated setup process
 - [ ] Write and test initial setup scripts
-- [ ] Use Ruby, Python, or shell scripts where appropriate for automation
+- [ ] Use Ruby, Python, or shell scripts where appro[118;1:3upriate for automation
 - [ ] Automate environment and Docker setup where practical
 - [ ] Test setup scripts from a fresh clone
 - [ ] Document anything that still requires manual setup
