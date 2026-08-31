@@ -41,9 +41,13 @@ PhoneVault v0.1 should be able to:
 # Architecture
 
    Browser
+
      ⬇
+
 Ruby on Rails 
+
      ⬇     ⬇
+     
    MySQL  File Storage
 
 MySQL is used for structured data such as the users, devices, backup history, file metadata, hashes, timestamps, and security events.
@@ -54,6 +58,7 @@ The actual photos, videos, documents, and other files are stored separately on p
 The working schema is centered around these tables:
 
 USERS
+
   ⬇ 1:N (one-to-many)
 
 DEVICES
@@ -87,7 +92,7 @@ uniquely identifies a row in a table.
 ** FK = Foreign Key:** connects a row to another table.
 
 Examples: `devices.user_id` references `users.id`.
-*--------------------------------------------------------------------------*
+--------------------------------------------------------------------------
 
 
 # Users
@@ -206,17 +211,29 @@ Possible events:
 
 
 Select Device
+
      ⬇ 
+
 Upload File
+
      ⬇
+
 Create Backup Run
+
      ⬇ 
+
 Calculate SHA-256
+
      ⬇ 
+
 Store File
+
      ⬇ 
+
 Save Metadata
+
      ⬇ 
+     
 Mark Backup Complete
 
 
@@ -362,7 +379,7 @@ The repository contains an `.env.example` file that shows the variables needed t
 ## documentation & due diligence
 
 - [ ] Keep the README synchronized with the actual state of the project
-- [ [118;1:3u] document installation
+- [ ] document installation
 - [ ] document backup & restore
 - [ ] document the database
 - [ ] document security decisions
@@ -389,3 +406,4 @@ The repository contains an `.env.example` file that shows the variables needed t
 - [ ] research CalDAV support for calendar backup & sync
 - [ ] research CardDAV support for contact backup & sync
  
+
