@@ -40,15 +40,15 @@ PhoneVault v0.1 should be able to:
 ---------------------------------------------------------------------------
 # Architecture
 
-   Browser
+Browser
 
-     ⬇
+  ⬇
 
 Ruby on Rails 
 
-     ⬇     ⬇
+  ⬇    ⬇
      
-   MySQL  File Storage
+MySQL  File Storage
 
 MySQL is used for structured data such as the users, devices, backup history, file metadata, hashes, timestamps, and security events.
 
@@ -100,12 +100,12 @@ Examples: `devices.user_id` references `users.id`.
 *Local PhoneVault accounts.*
 Possible fields:
 
-`id`            *(PK)*
-`username`
-`display_name`
-`password_digest`
-`created_at`
-`updated_at`
+- `id`            *(PK)*
+- `username`
+- `display_name`
+- `password_digest`
+- `created_at`
+- `updated_at`
 
 
 # Devices
@@ -127,13 +127,13 @@ Individual backup attempts.
 
 Possible fields:
 
-`id`            *(PK)*
-`device_id`     *(FK) ➡ devices.id*
-`status`
-`started_at`
-`completed_at`
-`created_at`
-`updated_at`
+- `id`            *(PK)*
+- `device_id`     *(FK) ➡ devices.id*
+- `status`
+- `started_at`
+- `completed_at`
+- `created_at`
+- `updated_at`
 
 
 # Backup Files
@@ -141,14 +141,14 @@ Possible fields:
 
 *Potential fields:*
 
-`id`             *(PK)*
-`backup_run_id`  *(FK) ➡ backup_runs.id*
-`original_filename`
-`storage_path`
-`size_bytes`
-`sha256`
-`created_at`
-`updated_at`
+- `id`             *(PK)*
+- `backup_run_id`  *(FK) ➡ backup_runs.id*
+- `original_filename`
+- `storage_path`
+- `size_bytes`
+- `sha256`
+- `created_at`
+- `updated_at`
 
 
 # Security Events
@@ -157,11 +157,11 @@ Security related activity recorded by the application.
 
 Possible fields:
 
-`id`           *(PK)*
-`user_id`      *(FK) ➡ users.id, nullable*
-`event_type`
-`ip_address`
-`created_at`
+- `id`           *(PK)*
+- `user_id`      *(FK) ➡ users.id, nullable*
+- `event_type`
+- `ip_address`
+- `created_at`
 
 Possible events:
 
@@ -211,13 +211,11 @@ Possible events:
 
 
 Select Device
-
      ⬇ 
 
 Upload File
 
      ⬇
-
 Create Backup Run
 
      ⬇ 
@@ -299,7 +297,7 @@ The repository contains an `.env.example` file that shows the variables needed t
 - [ ] Verify secrets and local config are ignored by Git
 - [ ] Plan the automated setup process
 - [ ] Write and test initial setup scripts
-- [ ] Use Ruby, Python, or shell scripts where appro[118;1:3upriate for automation
+- [ ] Use Ruby, Python, or shell scripts where appropriate for automation
 - [ ] Automate environment and Docker setup where practical
 - [ ] Test setup scripts from a fresh clone
 - [ ] Document anything that still requires manual setup
@@ -350,7 +348,7 @@ The repository contains an `.env.example` file that shows the variables needed t
 - [ ] handle missing or corrupted files
 - [ ] test the complete backup -> restore pipeline
 
-
+[118;1:3u
 ## Testing && Reliability
 
 - [ ] add *Minitest* tests
