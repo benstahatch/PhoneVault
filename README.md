@@ -211,27 +211,17 @@ Possible events:
 
 
 Select Device
-     ⬇ 
-
+     ➡ 
 Upload File
-
-     ⬇
+     ➡
 Create Backup Run
-
-     ⬇ 
-
+     ➡ 
 Calculate SHA-256
-
-     ⬇ 
-
+     ➡ 
 Store File
-
-     ⬇ 
-
+     ➡ 
 Save Metadata
-
-     ⬇ 
-
+     ➡ 
 Mark Backup Complete
 
 
@@ -239,13 +229,13 @@ Mark Backup Complete
 
 
 Choose Backup
-     ⬇ 
+     ➡ 
 Find File Metadata
-     ⬇
+     ➡
 Locate Stored File
-     ⬇ 
+     ➡ 
 Restore File
-     ⬇ 
+     ➡ 
 Verify SHA-256
 
 
@@ -348,8 +338,8 @@ The repository contains an `.env.example` file that shows the variables needed t
 - [ ] handle missing or corrupted files
 - [ ] test the complete backup -> restore pipeline
 
-[118;1:3u
-## Testing && Reliability
+
+## Testin[118;1:3ug && Reliability
 
 - [ ] add *Minitest* tests
 - [ ] test database models and relationships
